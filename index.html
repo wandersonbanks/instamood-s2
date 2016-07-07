@@ -19,7 +19,7 @@
 			<div ng-show="hasToken">
         <!-- challenge: make it so that you don't have to click this link for
              the pictures the load -->
-				<a href="#" ng-click="getInstaPics()">Load pictures!</a>
+				<a ng-click="getInstaPics()">Load pictures!</a>
 				<ul>
           <!-- this loops through all your pictures -->
 					<li ng-repeat="pic in picArray track by $index">
